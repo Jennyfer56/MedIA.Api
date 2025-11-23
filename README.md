@@ -68,7 +68,7 @@ Arquivo `appsettings.json`:
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=MedIaDb;Trusted_Connection=True;TrustServerCertificate=True;"
+    "OracleConnection": "User Id=rm559258;Password=170904;Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=oracle.fiap.com.br)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=ORCL)));"
 }
 ````
 
